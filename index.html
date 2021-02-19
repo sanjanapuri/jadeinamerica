@@ -1,63 +1,20 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
-  .column {
-    float: left;
-    width: 45%;
-    padding: 5px;
-    }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .btnleft {
-    position: absolute;
-    top: 75%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #b1cc92;
-    color: #FFFFFF;
-    font-size: 30px;
-    padding: 50px 70px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    font-family: "Didot", serif;
-  }
 
-.btnleft:hover {
-  background-color: black;
-}
-
- .btnright {
-    position: absolute;
-    top: 75%;
-    left: 67%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #b1cc92;
-    color: #FFFFFF;
-    font-size: 30px;
-    padding: 50px 70px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    font-family: "Didot", serif;
+  h1{
+   font-weight: normal;
+   color: #00925E;
+   font-size: 50px;
+   font-weight:900;
+   padding: 20px 0px 10px;
   }
-
-.btnright:hover {
-  background-color: black;
-}
 </style>
+
   <head>
     <title>Fine Everyday Jade Designs</title>
     <link  rel = "stylesheet" href="styles.css">
   </head>
-  <div style="background-image: url('BackgroundColor.jpg');">
   <body>
     <header>
       <h1>Jade in America</h1>
@@ -71,16 +28,12 @@
       </nav>
     </header>
     <section>
-      <div class="row">
-        <div class="column">
-          <img src="PanelColor.jpg" style="width:100%" height=500>
-          <a href="jewelery.html"><button class = "btnleft"><strong>SHOP</strong></button></a>
-        </div>
-        <div class="column">
-          <img src="PanelColor.jpg" style="width:100%" height=500>
-          <a href="aboutus.html"><button class = "btnright"><strong>STORY</strong></button></a>
-        </div>
-    </div>     
+      <button class = "bighomeleft"></button>
+      <button class = "bighomeright"></button>
+      <button class = "homeleft"></button>
+      <button class = "homeright"></button>
+      <a href="jewelery.html"><button class = "btnleft"><strong>SHOP</strong></button></a>
+      <a href="aboutus.html"><button class = "btnright"><strong>STORY</strong></button></a> 
     </section>
     <footer>&copy; Jade in America, 2021</footer>
   </body>  
