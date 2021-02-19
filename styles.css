@@ -70,7 +70,8 @@ nav ul {
 }
 nav li {
   text-align: center;
-  color:#FFFFFF;
+  color:#000000
+;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
