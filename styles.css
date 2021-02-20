@@ -17,11 +17,12 @@ h2 {
    margin: 0;
    padding: 0;
 }
-h3 {
+h3{
    font-weight: normal;
    color: #00925E;
    margin: 0;
    padding: 0;
+   width:50%;
 }
 label {
   color: #00925E
@@ -35,22 +36,21 @@ header {
 section {
   color: #00925E;
   padding: 10px 20px 10px;
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
   min-height: 300px;
 }
 p.small{
-  line-height: 1.5;
+  line-height: 2.0;
 }
 p.large{
-  font-size: 30px;
+  font-size: 50px;
 }
 img{
   width: 100%
   height: auto;
-  padding: 0 25px 0px;
+ /* padding: 0 25px 0px;*/
 }
 footer {
   color: #EEA222;
@@ -58,6 +58,8 @@ footer {
   text-align: center;
   font-size: 15px;
 }
+
+/*ADD*/
 
 @media only screen and (min-width: 200px) {
   li {
@@ -74,12 +76,11 @@ nav li {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
-  font-size: 17px;
+  width: 100px;
+  font-size: 10px;
   font-style: normal;
 }
 }
-
 
 @media only screen and (min-width: 500px) {
   li {
@@ -101,6 +102,7 @@ nav li {
   font-style: normal;
 }
 }
+
 
 /*Button for Home Page*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
